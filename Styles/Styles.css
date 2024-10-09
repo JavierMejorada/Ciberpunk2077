@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: yellow;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+header .navbar .logo {
+  height: 50px;
+}
+@media (min-width: 576px) {
+  header .navbar .logo {
+    height: 80px;
+  }
+}
+@media (min-width: 768px) {
+  header .navbar .logo {
+    height: 150px;
+  }
+}
+
+.main-title {
+  background-color: black;
+  color: yellow;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.description {
+  color: white;
+  font-size: 0.9rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.carousel-item {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: yellow;
+}
+
+@media (max-width: 576px) {
+  .navbar .nav-link {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .navbar .nav-link {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=Styles.css.map */
